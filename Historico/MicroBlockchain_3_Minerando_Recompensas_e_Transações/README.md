@@ -1,4 +1,4 @@
-#Transações e Mineração de Recompensas
+# Transações e Mineração de Recompensas
 Nesta fase foi criada uma simples criptomoeda, onde foi preciso implementar duas coisas:
 1) Possibilidade de um bloco conter várias transações.
 2) Pagamento recompensas aos mineradores.

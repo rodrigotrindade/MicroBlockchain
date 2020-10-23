@@ -1,2 +1,2 @@
-#Assinando Transações
+# Assinando Transações
 Nesta fase foi resolvido um pequeno problema que permitia qualquer um fazer tantas transações quanto desejar, e efetivamente, gastar criptomoedas que não lhe pertence. Para resolver este problema, foi criada uma regra que obriga que toda a transação seja assinada com chaves privada e pública. Desta forma o usuário só pode gastar moedas de uma carteira se ele tiver a chave privada dela. Para isso, a classe Transação foi modificada para incluir métodos para validar e assinar uma transação. A classe Bloco também sofreu modificações, para possibilitar a validação do vetor que armazena as transações.
