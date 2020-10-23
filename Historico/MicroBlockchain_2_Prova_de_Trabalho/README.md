@@ -1,0 +1,3 @@
+#Prova de Trabalho (PoW)
+Nesta fase foi implementado o algoritmo da Prova de Trabalho (Proof of Work - PoW). Foi definido o sistema de mineração de bloco, onde uma variável chamada nonce (number once) é incrementada a cada geração de hash, enquanto este não cumpre a exigência de dificuldade estabelecida pelo número de zeros no início do hash.
+Por fim, são realizados testes de criação de blocos, onde podemos alterar a dificuldade de mineração, constituindo assim a Prova de trabalho.
