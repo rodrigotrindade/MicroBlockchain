@@ -89,7 +89,7 @@ class MicroBlockchain{
 	}
 
 	criarBlocoGenesis(){
-		return new Bloco(new Date().toLocaleDateString(),"Bloco Genesis","0");
+		return new Bloco(Date.now(),"Bloco Genesis","0");
 	}
 
 	buscarUltimoBloco(){
