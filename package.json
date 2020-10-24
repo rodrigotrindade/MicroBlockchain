@@ -10,8 +10,8 @@
   "main": "Servico/src/microblockchain.js",
   "author": "Rodrigo Trindade <rodrigo@rodrigotrindade.com.br>",
   "license": "Livre",
-  "repository": "github:rodrigotrindade/MicroBlockchain",
-  "homepage": "https://github.com/rodrigotrindade/MicroBlockchain",
+  "repository": "github:rodrigotrindade/MicroBlockchain/Servico",
+  "homepage": "https://github.com/rodrigotrindade/MicroBlockchain/Servico",
   "dependencies": {
     "crypto-js": "^4.0.0",
     "debug": "^4.1.1",
