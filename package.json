@@ -1,5 +1,5 @@
 {
-  "name": "microblockchain",
+  "name": "micro-blockchain",
   "version": "1.0.0",
   "description": "Uma simples implementação de blockchain em javascript. Somente para propósitos educacionais.",
   "keywords": [
