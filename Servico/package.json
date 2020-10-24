@@ -1,0 +1,31 @@
+{
+  "name": "microblockchain",
+  "version": "1.0.0",
+  "description": "Uma simples implementação de blockchain em javascript. Somente para propósitos educacionais.",
+  "keywords": [
+    "microblockchain",
+    "transações",
+    "educação"
+  ],
+  "main": "Servico/src/microblockchain.js",
+  "author": "Rodrigo Trindade <rodrigo@rodrigotrindade.com.br>",
+  "license": "Livre",
+  "repository": "github:rodrigotrindade/MicroBlockchain/Servico",
+  "homepage": "https://github.com/rodrigotrindade/MicroBlockchain/Servico",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "debug": "^4.1.1",
+    "elliptic": "^6.5.1"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.6",
+    "eslint": "^6.5.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^6.2.1",
+    "nyc": "^14.1.1"
+  }
+}
