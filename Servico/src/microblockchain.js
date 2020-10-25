@@ -44,7 +44,7 @@ class Bloco{
 	}
 
 	calcularHash(){
-		return SHA256(this.hashAnterior+this.timestamp+JSON.stringify(this.dados)+this.nonce).toString();
+		return SHA256(this.hashAnterior+this.timestamp+JSON.stringify(this.transacoes)+this.nonce).toString();
 	}
 
 	minerarBloco(dificuldade){
