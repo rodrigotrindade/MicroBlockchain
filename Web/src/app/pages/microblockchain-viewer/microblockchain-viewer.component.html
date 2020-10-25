@@ -1,0 +1,19 @@
+<div class="container">
+    <h1>Blocos na cadeia</h1>
+    <p>Cada card representa um bloco na cadeia. Clique no bloco para ver as transações armazenadas nele.</p>
+
+    <app-bloco-view
+    *ngFor="let bloco of blocos"
+    [bloco]="bloco"
+    (click)= "mostrarTransacoes(bloco)"
+    ></app-bloco-view>
+</div>
+
+<br><br>
+
+<div class="container">
+    <h1>Transações neste bloco</h1>
+    <app-transacoes-table
+    [transacoes]="blocoSelecionado.transacoes"
+    ></app-transacoes-table>
+</div>

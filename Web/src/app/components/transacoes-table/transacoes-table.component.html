@@ -1,0 +1,38 @@
+<p *ngIf="transacoes.length === 0">Este bloco não tem transações</p>
+
+<table class="table table-hover table-striped" *ngIf="transacoes.length > 0">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Origem</th>
+      <th scope="col">Destino</th>
+      <th scope="col">Quantia</th>
+      <th scope="col">Timestamp</th>
+      <th scope="col">Válida?</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let tx of transacoes; index as index">
+      <td>{{index}}</td>
+      <td class="text-truncate" style="max-width: 100px;">
+        {{tx.origem}}
+        <span *ngIf="tx.origem === null">Sistema</span>
+      </td>
+      <td class="text-truncate" style="max-width: 100px;">
+          {{tx.destino}}
+      </td>
+      <td>
+        {{tx.quantia}}
+        <span *ngIf="tx.origem === null" class="text-muted"><br><small>(Recompensa)</small></span>
+      </td>
+      <td>
+        {{tx.timestamp}}<br>
+        <span class="text-muted"><small>{{ tx.timestamp |date:'d/MM/y - HH:mm' }}</small></span> 
+      </td>
+      <td style="max-width: 40px;">
+        <span *ngIf="tx.valida()">✓</span>
+        <span *ngIf="!tx.valida()">✗</span>
+      </td>
+    </tr>
+  </tbody>
+</table>

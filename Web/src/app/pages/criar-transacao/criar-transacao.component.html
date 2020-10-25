@@ -1,0 +1,23 @@
+
+<div class="container">
+    <h1>Criar Transação</h1>
+    <p>Transfira alguma quantia para alguém!</p>
+    <br>
+
+    <div class="form-group">
+        <label for="">Carteira de Origem</label>
+        <input type="text" class="form-control" [(ngModel)]="chavesCarteira.chavePublica" disabled>
+    </div>
+
+    <div class="form-group">
+        <label for="destino">Carteira de Destino</label>
+        <input type="text" class="form-control" [(ngModel)]="novaTx.destino">
+    </div>
+
+    <div class="form-group">
+        <label for="quantia">Quantia</label>
+        <input type="number" class="form-control" [(ngModel)]="novaTx.quantia">
+    </div>
+
+    <button (click)="criarTransacao()" type="submit" class="btn btn-primary">Assinar e Criar Transação</button>
+</div>
