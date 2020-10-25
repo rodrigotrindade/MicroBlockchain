@@ -120,7 +120,7 @@ class MicroBlockchain{
 		if(transacao.quantia <= 0)
 			throw new Error("A quantia envolvida na transação tem que ser maior que zero!");
 
-		if(transacao.buscarBalancoCarteira(transacao.origem) < transacao.quantia)
+		if(this.buscarBalancoCarteira(transacao.origem) < transacao.quantia)
 			throw new Error("Saldo insuficiente!");
 
 		this.transacoesPendentes.push(transacao);
