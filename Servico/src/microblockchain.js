@@ -107,9 +107,7 @@ class MicroBlockchain{
 		console.log("Bloco minerado com sucesso!");
 		this.cadeia.push(bloco);
 
-		this.transacoesPendentes = [
-			new Transacao(null,carteiraRecompensaMineracao,this.recompensaMineracao)
-		]; 
+		this.transacoesPendentes = []; 
 	}
 
 	incluirTransacao(transacao){
@@ -118,6 +116,12 @@ class MicroBlockchain{
 
 		if(!transacao.valida())
 			throw new Error("A transação é inválida e não será incluída na cadeia!");
+		
+		if(transacao.quantia <= 0)
+			throw new Error("A quantia envolvida na transação tem que ser maior que zero!");
+
+		if(transacao.buscarBalancoCarteira(transacao.origem) < transacao.quantia)
+			throw new Error("Saldo insuficiente!");
 
 		this.transacoesPendentes.push(transacao);
 	}
@@ -138,18 +142,28 @@ class MicroBlockchain{
 		return balanco;
 	}
 
+	buscarTransacoesCarteira(carteira){
+		const transacoes = [];
+		for(const bloco of this.cadeia)
+			for(const transacao of bloco.transacoes)
+				if(transacao.origem === carteira || transacao.destino === carteira)
+					transacoes.push(transacao);
+		
+		return transacoes;
+	}
+
 	cadeiaValida(){
+		const genesis = JSON.stringify(this.criarBlocoGenesis());
+		if(genesis !== JSON.stringify(this.cadeia[0]))
+			return false;
+
 		for(let i=1;i<this.cadeia.length;i++){
 			const blocoAtual = this.cadeia[i];
-			const blocoAnterior = this.cadeia[i-1];
 
 			if(!blocoAtual.transacoesValidas())
 				return false;
 
 			if(blocoAtual.buscarHash() !== blocoAtual.calcularHash())
-				return false;
-
-			if(blocoAtual.buscarHashAnterior() !== blocoAnterior.buscarHash())
 				return false;
 		}
 
@@ -158,4 +172,5 @@ class MicroBlockchain{
 }
 
 module.exports.MicroBlockchain = MicroBlockchain;
+module.exports.Bloco = Bloco;
 module.exports.Transacao = Transacao; 
