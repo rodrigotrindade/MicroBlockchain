@@ -7,10 +7,11 @@ class Transacao{
 		this.origem = origem;
 		this.destino = destino;
 		this.quantia = quantia;
+		this.timestamp = Date.now();
 	}
 
 	calcularHash(){
-		return SHA256(this.origem+this.destino+this.quantia).toString();
+		return SHA256(this.origem+this.destino+this.quantia+this.timestamp).toString();
 	}
 
 	assinarTransacao(chaveAssinante){
