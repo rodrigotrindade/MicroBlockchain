@@ -36,3 +36,8 @@ Em seguinda abra o seu navegador de internet e digite http://localhost:4200
 
 ---
 ## :mortar_board: Utilizando o Micro Blockchain
+**Página Inicial:** Nesta página os blocos podem ser visualizados de forma amigável da cadeia MicroBlockchain. As transações armazenadas em cada bloco podem ser visualizadas bastando clicar no quadro que representa o bloco.
+![](https://github.com/rodrigotrindade/MicroBlockchain/blob/master/Historico/Capturas/blocos-na-cadeia.png)
+
+**Criando Transações** É possível criar transações, enviando qualquer quantia uma carteira. Optando pela simplicidade, a aplicação não efetua validação, porém o objetivo é mostrar que uma nova transação seja incluída na lista de transações pendentes, ficando pronta para ser incluída no próximo bloco.
+![](https://github.com/rodrigotrindade/MicroBlockchain/blob/master/Historico/Capturas/assinando-e-criando-transacoes.png)
