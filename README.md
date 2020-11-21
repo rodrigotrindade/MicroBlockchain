@@ -5,7 +5,7 @@ por trás de um blockchain usando um código simples. Não é uma implementaçã
 mas o suficiente para entender como os blockchains funcionam e como eles garantem 
 que os blocos nunca possam ser alterados.</p>
 
-## 👀 Importante  
+## ⚠️ Importante  
 **Lembre-se que único propósito do Micro Blockchain é o aprendizado. Ele não deve ser utilizado para outros fins!**
 <p>Siga o roteiro a seguir para obter uma cópia funcional do Micro Blockchain no seu computador.</p> 
 
@@ -34,4 +34,4 @@ ng serve
 Em seguinda abra o seu navegador de internet e digite http://localhost:4200
 
 ---
-## 📸 Capturas de Tela
+## Utilizando o Micro Blockchain
