@@ -1,4 +1,4 @@
-<h3 align="center">Micro Blockchain</h3>
+<h1 align="center">Micro Blockchain</h1>
 
 O objetivo deste projeto é possibilitar o entendimento do que está 
 por trás de um blockchain usando um código simples. Não é uma implementação completa, 
