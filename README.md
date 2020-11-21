@@ -14,8 +14,17 @@ Para instalar o Micro Blockchain e rodá-lo em sua máquina local é necessário
 
 ## 🏁 Passo 2: Instalação do Micro Blockchain<a name = "passo2"></a>
 Para que o Micro Blockchain seja instalado em sua máquina é necessário que o repositório seja clonado a partir do Github. Para isto o seguinte comando deverá ser executado:
-
 ```
 git clone https://github.com/rodrigotrindade/MicroBlockchain 
 ``` 
+Quando a cópia do Micro Blockchain já estiver finalizada, você deverá acessar a pasta /Web e digitar o comando para a instalação automática das dependências. Não se preocupe, precisará fazer isso uma única vez:
+```
+npm install -y
+```
 
+## 🏁 Passo 3: Rodando o Micro Blockchain<a name = "passo3"></a>
+Para rodar o Micro Blockchain, você deve acessar a pasta /Web e digitar o seguinte comando:
+```
+ng serve
+```
+Em seguinda abra o seu navegador de internet e digite http://localhost:4200
