@@ -5,16 +5,17 @@ por trás de um blockchain usando um código simples. Não é uma implementaçã
 mas o suficiente para entender como os blockchains funcionam e como eles garantem 
 que os blocos nunca possam ser alterados.</p>
 
-## ⚠️ Importante  
+## :warning: Importante  
 **Lembre-se que único propósito do Micro Blockchain é o aprendizado. Ele não deve ser utilizado para outros fins!**
 <p>Siga o roteiro a seguir para obter uma cópia funcional do Micro Blockchain no seu computador.</p> 
 
 ---
 
-## 🏁 Passo 1: Instalação do Node.js (pré-requisito)<a name = "passo1"></a>
+## :one: Passo 1: Instalação do Node.js (pré-requisito)<a name = "passo1"></a>
 Para instalar o Micro Blockchain e rodá-lo em sua máquina local é necessário ter o Node.js previamente instalado em sua máquina. Caso ainda não possua o Node.js, [clique aqui](https://nodejs.org/) e siga os procedimentos de instalação descritos no site.
 <br><br>
-## 🏁 Passo 2: Instalação do Micro Blockchain<a name = "passo2"></a>
+
+## :two: Passo 2: Instalação do Micro Blockchain<a name = "passo2"></a>
 Para que o Micro Blockchain seja instalado em sua máquina é necessário que o repositório seja clonado a partir do Github. Para isto o seguinte comando deverá ser executado:
 ```
 git clone https://github.com/rodrigotrindade/MicroBlockchain 
@@ -26,7 +27,7 @@ Quando a cópia do Micro Blockchain já estiver finalizada, você deverá acessa
 npm install -y
 ```
 
-## 🏁 Passo 3: Rodando o Micro Blockchain<a name = "passo3"></a>
+## :checkered_flag: Passo 3: Rodando o Micro Blockchain<a name = "passo3"></a>
 Para rodar o Micro Blockchain, você deve acessar a pasta **/Web** e digitar o seguinte comando:
 ```
 ng serve
