@@ -6,7 +6,7 @@ mas o suficiente para entender como os blockchains funcionam e como eles garante
 que os blocos nunca possam ser alterados.</p>
 
 ## 👀 Importante  
-<b>Lembre-se que único propósito do Micro Blockchain é o aprendizado. Ele não deve ser utilizado para outros fins!</b>
+**Lembre-se que único propósito do Micro Blockchain é o aprendizado. Ele não deve ser utilizado para outros fins!**
 <p>Siga o roteiro a seguir para obter uma cópia funcional do Micro Blockchain no seu computador.</p> 
 
 ---
@@ -19,13 +19,15 @@ Para que o Micro Blockchain seja instalado em sua máquina é necessário que o 
 ```
 git clone https://github.com/rodrigotrindade/MicroBlockchain 
 ``` 
-Quando a cópia do Micro Blockchain já estiver finalizada, você deverá acessar a pasta <strong>/Web<strong> e digitar o comando para a instalação automática das dependências. Não se preocupe, precisará fazer isso uma única vez:
+
+Quando a cópia do Micro Blockchain já estiver finalizada, você deverá acessar a pasta **/Web** e digitar o comando para a instalação automática das dependências. Não se preocupe, precisará fazer isso uma única vez:
+
 ```
 npm install -y
 ```
 
 ## 🏁 Passo 3: Rodando o Micro Blockchain<a name = "passo3"></a>
-Para rodar o Micro Blockchain, você deve acessar a pasta <strong>/Web<strong> e digitar o seguinte comando:
+Para rodar o Micro Blockchain, você deve acessar a pasta **/Web** e digitar o seguinte comando:
 ```
 ng serve
 ```
