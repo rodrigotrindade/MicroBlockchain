@@ -34,4 +34,4 @@ ng serve
 Em seguinda abra o seu navegador de internet e digite http://localhost:4200
 
 ---
-## Utilizando o Micro Blockchain
+## :mortar_board: Utilizando o Micro Blockchain
