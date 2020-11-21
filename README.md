@@ -4,6 +4,7 @@ O objetivo deste projeto é possibilitar o entendimento do que está
 por trás de um blockchain usando um código simples. Não é uma implementação completa, 
 mas o suficiente para entender como os blockchains funcionam e como eles garantem 
 que os blocos nunca possam ser alterados.</p>
+
 ## 👀 Importante  
 <b>Lembre-se que único propósito do Micro Blockchain é o aprendizado. Ele não deve ser utilizado para outros fins!</b>
 <p>Siga o roteiro a seguir para obter uma cópia funcional do Micro Blockchain no seu computador.</p> 
