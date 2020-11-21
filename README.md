@@ -37,13 +37,17 @@ Em seguinda abra o seu navegador de internet e digite http://localhost:4200
 ---
 ## :mortar_board: Utilizando o Micro Blockchain
 **Página Inicial:** Nesta página os blocos podem ser visualizados de forma amigável da cadeia MicroBlockchain. As transações armazenadas em cada bloco podem ser visualizadas bastando clicar no quadro que representa o bloco.<br>
+
 ![](https://github.com/rodrigotrindade/MicroBlockchain/blob/master/Historico/Capturas/blocos-na-cadeia.png)
 
 **Criando Transações** É possível criar transações, enviando qualquer quantia uma carteira. Optando pela simplicidade, a aplicação não efetua validação, porém o objetivo é mostrar que uma nova transação seja incluída na lista de transações pendentes, ficando pronta para ser incluída no próximo bloco.<br>
+
 ![](https://github.com/rodrigotrindade/MicroBlockchain/blob/master/Historico/Capturas/assinando-e-criando-transacoes.png)<br>
 
 **Transações Pendentes** Nesta página são mostradas as transações pendentes que serão incluídas no próximo bloco, quando o processo de mineração é iniciado.<br>
+
 ![](https://github.com/rodrigotrindade/MicroBlockchain/blob/master/Historico/Capturas/minerando-transacoes-pendentes.png)<br>
 
 **Configurações** O Micro Blockchain possibilita que a dificuldade da Prova de Trabalho seja ajustada para garantir a segurança da rede, conforme a quantidade de usuários aumenta ou diminui. No caso do Micro Blockchain, não há uma rede de computadores, porém essa funcionalidade serve para demonstrar o funcionamento do algoritmo da prova de trabalho. Nas configurações também é possível configurar a quantidade de moedas (MicroCoins) que são concedidas ao minerador do bloco.<br>
+
 ![](https://github.com/rodrigotrindade/MicroBlockchain/blob/master/Historico/Capturas/configurando-o-microblockchain.png)<br>
